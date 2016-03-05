@@ -1,5 +1,5 @@
 # Currently this path is appendend to dynamically when picking a ruby version
-export PATH=node_modules/.bin:/usr/local/sbin:/usr/local/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 #export PATH=$PATH:/opt/boxen/homebrew/opt/go/libexec/bin
 #:/usr/local/share/npm/bin:~/.cabal/bin:$HOME/Library/Haskell/bin
 

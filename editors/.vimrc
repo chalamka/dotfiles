@@ -29,6 +29,8 @@ set shiftwidth=4
 set expandtab
 set copyindent
 
+set background=dark
+
 colorscheme gruvbox
 
 " Improved search function and highlighting
@@ -39,7 +41,10 @@ map g/ <Plug>(incsearch-stay)
 " line numbers
 set number
 
-set background=dark
+" fix backspace issues on mac
+set backspace=indent,eol,start
+
+
 
 set t_ut=
 
@@ -52,3 +57,5 @@ set foldlevelstart=10
 set foldnestmax=10
 nnoremap <space> za
 set foldmethod=indent
+
+syntax enable
